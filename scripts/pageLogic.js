@@ -32,7 +32,7 @@ class PageLogic {
   clearPage() {
     document.getElementById("headDiv").innerHTML = "";
     document.getElementById("contentDiv").innerHTML = "";
-    document.getElementById("referenceDiv").innerHTML = "";
+    document.getElementById("referenceText").innerHTML = "";
     document.getElementById("backButton").style.visibility = "visible";
     document.getElementById("forwardButton").style.visibility = "visible";
   }
@@ -40,7 +40,7 @@ class PageLogic {
   fillInPageData(pageIndex) {
     document.getElementById("headDiv").innerHTML = pagesData[pageIndex]["header"];
     this.fillInContent(pagesData[pageIndex]["content"]);
-    document.getElementById("referenceDiv").innerHTML = pagesData[pageIndex]["referenceText"];
+    document.getElementById("referenceText").innerHTML = `Reference(s): ${pagesData[pageIndex]["referenceText"]}`;
   }
 
   fillInContent(content) {
