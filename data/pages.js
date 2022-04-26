@@ -11,18 +11,22 @@
 
 pagesData = [
   {
-    "header" : "Placeholder Head",
+    "header" : "Pedestrians vs Cars",
     "content" : [
       {
         "type" : "text",
-        "info" : "Placeholder Placeholder Placeholder Text"
+        "info" : "In the effort to reduce climate change, there are many areas to work on. One of these is travel emissions. According to the EPA, transportation is responible for about 26% of all C02 output in the United States, and light-duty vehicles (passenger cars and trucks) account for over half of that."
       },
       {
-        "type" : "graph",
-        "info" : "PlaceholderGraph"
+        "type" : "image",
+        "info" : "co2Emissions.png"
+      },
+      {
+        "type" : "text",
+        "info" : "While Electric Vehicles are an import part of reducing that number, it ignores the ways that a car-depedent society make climate change worse and still pose a threat to an even more powerful way of reducing transit emissions: walking and cycling."
       }
     ],
-    "referenceText" : "Placeholder Placeholder Reference"
+    "referenceText" : "U.S. Tranportation Sector Greenhouse Gas Emissions 1990 - 2018 Fast Facts. https://nepis.epa.gov/Exe/ZyPDF.cgi?Dockey=P100ZK4P.pdf"
   }, 
   {
     "header" : "Test Head",

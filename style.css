@@ -16,21 +16,28 @@
 
 #headDiv {
   font-size: 30px;
-  height: 10%;
+  height: 5%;
 }
 
 #contentDiv {
-  height: 70%;
+  height: 85%;
+  overflow: scroll;
 }
 
 #referenceDiv {
-  height: 5%;
+  height: 3%;
   text-align: left;
   color: #595959;
+  font-size: 10px;
+  display: flex;
+}
+
+#referenceText {
+  align-self: flex-end;
 }
 
 #buttonDiv {
-  height:  10%;
+  height:  5%;
 }
 
 .navButton {
