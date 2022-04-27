@@ -1,4 +1,4 @@
-// pagesData from ./data/pages.js
+// pagesData from ../data/pages.js
 
 class PageLogic {
   constructor() {
@@ -54,11 +54,22 @@ class PageLogic {
           document.getElementById("contentDiv").innerHTML += `<img src="data/images/${con.info}">`;
           break;
         case "graph":
-          console.log("Warning: Graph not implemented.");
+          this.handleGraph(con.info);
           break;
         default:
           console.log(`Warning: Invalid content type: ${con.type}.`);
       }
+    }
+  }
+
+  handleGraph(graphName) {
+    // Graph functions are from /graphs.js
+    switch (graphName) {
+      case "allCrashDataYearly":
+        allCrashDataYearly();
+        break;
+      default:
+        console.log(`Waring: Invalid graph type: ${graphName}`);
     }
   }
 

@@ -23,22 +23,22 @@ pagesData = [
       },
       {
         "type" : "text",
-        "info" : "While Electric Vehicles are an import part of reducing that number, it ignores the ways that a car-depedent society make climate change worse and still pose a threat to an even more powerful way of reducing transit emissions: walking and cycling."
+        "info" : "While Electric Vehicles are an import part of reducing that number, it ignores the ways that a car-depedent society make climate change worse and still pose a threat to an even more powerful way of reducing transit emissions: walking and cycling. Not to mention ignoring the public health crisis that is car crashes."
       }
     ],
     "referenceText" : "U.S. Tranportation Sector Greenhouse Gas Emissions 1990 - 2018 Fast Facts. https://nepis.epa.gov/Exe/ZyPDF.cgi?Dockey=P100ZK4P.pdf"
-  }, 
+  },
   {
-    "header" : "Test Head",
+    "header" : "People get into a lot of Crashes",
     "content" : [
       {
         "type" : "text",
-        "info" : "Test Test Test Text"
+        "info" : "Yearly Crashes of all types in the United States"
       }, {
-        "type" : "image",
-        "info" : "test.png"
+        "type" : "graph",
+        "info" : "allCrashDataYearly"
       }
     ],
-    "referenceText" : "Test Test Reference"
+    "referenceText" : "National Highway Traffic Safety Adiministration's Fatality Analysis Reporting System (FARS) Database"
   }
 ]
